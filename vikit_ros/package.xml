@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vikit_ros</name>
+  <version>0.0.0</version>
+  <description>The vikit_ros package</description>
+  <maintainer email="yashpurswani4@gmail.com">Yash Purswani</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>vikit_common</depend>
+  <depend>visualization_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>sophus</depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
